@@ -1,0 +1,94 @@
+
+{
+  "quiz": [
+    {
+      "id": 2,
+      "quizname": null,
+      "questionId": null,
+      "questionName": "인도 크리켓 팀의 주장은 누구입니까?",
+      "option1": "me",
+      "option2": "you",
+      "option3": "lavish",
+      "option4": "kohli",
+      "correct": false
+    },
+    {
+      "id": 1,
+      "quizname": ";",
+      "questionId": null,
+      "questionName": "who is the cm of himachal?",
+      "option1": "jai ram ",
+      "option2": "sita ram",
+      "option3": "ram",
+      "option4": "koi bhi nahin",
+      "correct": null
+    },
+    {
+      "id": 3,
+      "quizname": null,
+      "questionId": null,
+      "questionName": "파키스탄의 수도는 무엇입니까?",
+      "option1": "lahore",
+      "option2": "islamabad",
+      "option3": "karachi",
+      "option4": "rawalpindi",
+      "correct": true
+    },
+    {
+      "id": 4,
+      "quizname": null,
+      "questionId": "5",
+      "questionName": "what is the capital of east timor?",
+      "option1": "dilli",
+      "option2": "delhi",
+      "option3": "billi",
+      "option4": "milli",
+      "correct": true
+    },
+    {
+      "id": 5,
+      "quizname": null,
+      "questionId": "9",
+      "questionName": "what the is of capital punjab?",
+      "option1": "delhi",
+      "option2": "hyderabad",
+      "option3": "chanidgarh",
+      "option4": "shimla",
+      "correct": true
+    },
+    {
+      "id": 6,
+      "quizname": null,
+      "questionId": null,
+      "questionName": "인도의 수도는 무엇입니까?",
+      "option1": "뉴 델리",
+      "option2": "모스크바",
+      "option3": "서울",
+      "option4": "도쿄",
+      "correct": true
+    },
+    {
+      "id": 7,
+      "quizname": null,
+      "questionId": null,
+      "questionName": "Quem e shahrukh khan?",
+      "option1": "actor do bollywood",
+      "option2": "actor do hollywood",
+      "option3": "actor do kdrama",
+      "option4": "actor do japanese drama",
+      "correct": null
+    },
+    {
+      "id": 8,
+      "quizname": null,
+      "questionId": null,
+      "questionName": "where is india?",
+      "option1": "asia",
+      "option2": "africa",
+      "option3": "australia",
+      "option4": "america",
+      "correct": null
+    }
+  ]
+}
+

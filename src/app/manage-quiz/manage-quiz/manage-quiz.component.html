@@ -1,0 +1,40 @@
+<div class="container col-sm-7">
+  <nav class="nav navbar navbar-light bg-white">
+    <div class="container-fluid">
+      <h4 style="color: #000000;">
+        Manage Quiz
+      </h4>
+      <button type="button" class="btn btn-danger" data-bs-toggle="modal"> <a
+          [ngStyle]="{'color': 'white' ,'text-decoration': 'none' }" routerLink="/create-quiz"
+          routerLinkActive="active"> Create quiz</a></button>
+
+    </div>
+  </nav>
+  <table class="table mt-3">
+    <thead>
+      <tr>
+        <th scope="col">ID</th>
+        <th scope="col">NAME OF THE QUIZ </th>
+        <th scope="col" class="text-center">ACTION</th>
+
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let row of quizData">
+        <td>{{row.id}}</td>
+        <td>{{row.quizname}}</td>
+        <td>
+          <button (click)="onEdit(row)" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"
+            class="btn btn-outline-primary">Edit</button>
+          <button (click)="deleteUser(row)" class="btn btn-outline-danger mx-2">Delete</button>
+
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+
+
+  <!-- Modal -->
+
+
